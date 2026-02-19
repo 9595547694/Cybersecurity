@@ -1,0 +1,23 @@
+IAAA
+
+Identification, authentication, authorization, auditing and Accountability.
+
+Identification - Unique username
+
+Authentication - Verify username using password, PassPin, accesscard, token, biometric, location
+
+Types - SFA, MFA
+
+Authorization - Rights and Permission
+
+Access control models
+MAC - Mandatory Access Control
+RBAC - Role Based Access Control
+Rule based access Control
+DAC- Descriptionary Access Control
+
+
+Auditing - Monitoring of actions, events, recording the events. collection of logs of systems so to detect malicious activities.
+
+Accountability - "The priniciple that an individual is entrusted to safeguard and control equipment keying material, & info is answerable to proper authority for the loss or misue of that info" - NIST. Reviewing the log file to check for compliance.
+
