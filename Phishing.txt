@@ -1,0 +1,13 @@
+Phishing:: “Phishing” refers to an attempt to steal sensitive information, typically in the form of usernames, passwords, credit card numbers, bank account information, or other important data in order to utilize or sell the stolen information.
+
+The most common examples of phishing are used to support other malicious actions, such as account takeovers, ransomware attacks, or business email compromise. Historically, phishing attacks typically occurred via email or instant message. Today, phishing attacks happen over a variety of media, from SMS text messages to phone calls to QR codes.
+
+Several tactics attackers can use to make their phishing attempts more effective:
+
+Finding, purchasing, or scraping known contact information
+Setting up fake websites and apps that imitate the real ones
+Using techniques like DNS fast fluxing to disguise their hosting servers
+Using domain spoofing and email spoofing to make messages appear legitimate
+Manipulating links so that URLs in phishing messages look correct
+Sending emails from trusted infrastructure that can pass checks and get past spam filters
+Using generative AI to quickly create realistic-sounding and error-free messages
