@@ -1,0 +1,21 @@
+Injection Attack
+
+OWASP top 10 main attacks
+
+An injection attack occurs when malicious code or commands are inserted into an application via untrusted user input, causing the interpreter to execute unintended, harmful actions. These critical vulnerabilities—including SQL, OS command, and prompt injection—can lead to full system compromise, data theft, and unauthorized access. 
+
+Key Aspects of Injection Attacks:
+Mechanism: Attackers input specially crafted data into forms, APIs, or HTTP headers that an application fails to validate, allowing the input to act as commands rather than data.
+
+Common Types:
+SQL Injection (SQLi): Malicious SQL queries are injected to bypass authentication or steal database data, such as using ' or 1=1-- to trick login forms.
+Cross-Site Scripting (XSS): Malicious scripts are injected into web pages to run in a user's browser.
+OS Command Injection: Attackers execute arbitrary operating system commands on the server.
+Prompt Injection: Malicious instructions are fed to Large Language Models (LLMs) to override system instructions.
+LDAP Injection: Manipulates Lightweight Directory Access Protocol queries to gain unauthorized directory access.
+Impact: Consequences range from complete data breach and system takeover to user session hijacking.
+
+Prevention:
+Input Validation/Sanitization: Strict filtering of user input.
+Parameterized Queries: Using prepared statements for database interactions.
+Principle of Least Privilege: Limiting the permissions of the database account the application uses
