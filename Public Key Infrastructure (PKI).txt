@@ -1,0 +1,23 @@
+Public Key Infrastructure (PKI) is a comprehensive framework of hardware, software, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and public keys. It enables secure, trusted digital communications by authenticating the identity of users, devices, and services using asymmetric cryptography
+
+Key Components of PKI
+Certificate Authority (CA): The trusted entity that issues and signs digital certificates.
+
+Registration Authority (RA): Verifies the identity of entities requesting information from the CA.
+
+Digital Certificates (X.509): Electronic documents (e.g., SSL/TLS) that bind public keys to entities, acting as a digital passport.
+
+Public/Private Key Pairs: Asymmetric keys used for encryption, decryption, and digital signatures.
+
+Certificate Repository: A central location for storing and distributing certificates.
+
+Key Functions and Uses
+Authentication: Verifying the identity of parties in a transaction.
+
+Confidentiality: Ensuring data is only accessible to authorized parties through encryption.
+
+Integrity: Guaranteeing that data has not been altered in transit.
+
+Non-repudiation: Ensuring the signer of a message cannot deny having signed it.
+ 
+Applications: Securing web traffic (SSL/TLS), email encryption (S/MIME), code signing, and IoT device authentication
