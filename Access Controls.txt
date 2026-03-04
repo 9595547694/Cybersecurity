@@ -1,0 +1,228 @@
+Access Control Models in Cybersecurity
+
+Access control is a fundamental cybersecurity mechanism that restricts, manages, and monitors who can access digital and physical resources. It ensures that only authorized users, devices, or processes can view, modify, or use specific data.
+
+Access control works through three core processes:
+
+Identification – Claiming an identity (e.g., username)
+
+Authentication – Verifying identity (e.g., password, MFA, biometrics)
+
+Authorization – Granting permissions based on policies
+
+Its primary goal is to enforce the principle of least privilege — users receive only the access necessary to perform their tasks.
+
+Major Access Control Models
+Discretionary Access Control (DAC)
+
+Definition:
+DAC allows the resource owner to decide who can access their resources.
+
+How it works:
+Access is typically controlled through Access Control Lists (ACLs).
+
+Characteristics:
+
+Flexible and easy to manage
+
+Owners can grant or revoke permissions
+
+Common in operating systems like Windows and Linux
+
+Advantages:
+
+High flexibility
+
+Suitable for collaborative environments
+
+Disadvantages:
+
+Less secure (users can unintentionally grant access)
+
+Vulnerable to malware spread
+
+Best Use Case:
+Small businesses, file-sharing environments, general corporate systems.
+
+Non-Discretionary Access Control – NDAC
+
+Mandatory Access Control (MAC)
+Definition:
+Access decisions are made by a central authority based on security policies. Users cannot change permissions.
+
+How it works:
+Access is determined by:
+
+Security clearance (user level)
+
+Data classification (confidential, secret, top secret)
+
+Characteristics:
+
+Highly secure
+
+Strict and rigid enforcement
+
+Users cannot override policies
+
+Advantages:
+
+Strong protection for sensitive data
+
+Prevents unauthorized data sharing
+
+Disadvantages:
+
+Complex to implement
+
+Less flexible
+
+Best Use Case:
+Government, military, research labs, highly classified environments.
+
+Role-Based Access Control (RBAC)
+
+Definition:
+Access is assigned based on a user's role within the organization.
+
+Example:
+HR role → Access to employee records
+Manager role → Access to reports
+
+Characteristics:
+
+Based on job functions
+
+Enforces least privilege
+
+Simplifies administration
+
+Advantages:
+
+Efficient for large organizations
+
+Reduces permission errors
+
+Disadvantages:
+
+Role explosion (too many roles can complicate management)
+
+Best Use Case:
+Enterprises, hospitals, universities, corporations.
+
+Rule-Based Access Control
+
+Definition:
+Access is granted or denied based on predefined rules set by the system.
+
+Example Rules:
+
+Allow access only during business hours
+
+Block traffic from specific IP addresses
+
+Common Implementation:
+
+Firewalls
+
+Network access policies
+
+Advantages:
+
+Automated enforcement
+
+Good for network security
+
+Disadvantages:
+
+Limited flexibility compared to attribute-based models
+
+Attribute-Based Access Control (ABAC)
+
+Definition:
+Access decisions are based on attributes of:
+
+User (role, department, clearance)
+
+Resource (type, sensitivity)
+
+Environment (location, time, device)
+
+Example:
+Allow access if:
+User department = Finance
+AND location = Office network
+AND time = Working hours
+
+Advantages:
+
+Highly flexible
+
+Fine-grained control
+
+Suitable for cloud environments
+
+Disadvantages:
+
+Complex to design and manage
+
+Best Use Case:
+Cloud computing, modern enterprise systems.
+
+Risk-Based Access Control
+
+Definition:
+Access decisions are made dynamically based on real-time risk assessment.
+
+Example:
+
+Login from trusted device → Allow access
+
+Login from new country → Require MFA
+
+Suspicious activity → Block access
+
+Factors Considered:
+
+Location
+
+Device reputation
+
+User behaviour
+
+Threat intelligence
+
+Advantages:
+
+Adaptive security
+
+Reduces fraud and breaches
+
+Disadvantages:
+
+Requires advanced monitoring systems
+
+Can affect user experience
+
+Best Use Case:
+Banking systems, financial institutions, cloud applications.
+
+DAC allows resource owners to decide access permissions, while NDAC enforces centrally defined policies where users cannot modify access rights
+
+Physical vs Logical Access Control
+
+Physical Access Control – Protects physical assets (ID cards, biometric scanners, security guards).
+
+Logical Access Control – Protects digital systems (passwords, MFA, firewalls).
+
+Significance of Access Control
+
+Protects sensitive data
+
+Prevents unauthorized access
+
+Minimizes security risks
+
+Ensures compliance with regulations
+
+Maintains confidentiality, integrity, and availability (CIA triad)
