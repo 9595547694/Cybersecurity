@@ -1,0 +1,204 @@
+Waterfall Model
+
+The Waterfall Model is a linear and sequential software development approach where each phase must be completed before moving to the next phase. It is simple to understand and is commonly used when requirements are clearly defined.
+
+Phases of the Waterfall Model
+
+Requirement Gathering
+
+Collect and analyze system requirements from stakeholders.
+
+Define system objectives, features, and constraints.
+
+System Design
+
+Create the system architecture and design.
+
+Specify hardware, software, database, and network requirements.
+
+Implementation
+
+Developers write the program code based on the system design.
+
+Testing
+
+The system is tested to identify bugs and errors.
+
+Ensures the software meets the required specifications.
+
+Deployment
+
+The completed system is delivered and installed for users.
+
+Maintenance
+
+Fix bugs, update features, and improve the system after deployment.
+
+Incident Response
+
+Incident Response is the structured process used by organizations to detect, analyze, contain, eradicate, and recover from cybersecurity incidents such as malware attacks, data breaches, or unauthorized access.
+
+The main goal is to minimize damage, restore operations quickly, and prevent future incidents.
+
+NIST Incident Response Life Cycle
+
+The National Institute of Standards and Technology (NIST) provides guidelines for incident handling in NIST SP 800-61 Computer Security Incident Handling Guide.
+
+Main Phases
+
+Preparation
+
+Detection and Analysis
+
+Containment, Eradication, and Recovery
+
+Post-Incident Activity
+
+Incident Response Lifecycle
+1. Preparation
+
+This phase focuses on building the capability to respond to incidents before they occur.
+
+Key Activities
+
+Incident Response Policy and Plan
+
+Establish procedures for handling security incidents.
+
+Incident Response Team (IRT)
+
+A dedicated team responsible for incident management.
+
+Training and Awareness
+
+Educate employees and IT staff on security practices.
+
+Communication and Coordination
+
+Define communication channels and escalation procedures.
+
+Tools and Resources
+
+Security monitoring tools such as SIEM, IDS/IPS, and forensic tools.
+
+Security Controls
+
+Implement firewalls, antivirus, access controls, and monitoring systems.
+
+Documentation and Reporting
+
+Maintain policies, procedures, and incident records.
+
+2. Detection and Analysis
+
+This phase involves identifying and confirming security incidents.
+
+Activities
+
+Monitoring Systems
+
+Detect suspicious activities using security tools.
+
+Checking Criteria and Thresholds
+
+Identify abnormal behavior based on predefined rules.
+
+Receiving Incident Reports
+
+Reports may come from users, monitoring systems, or administrators.
+
+Initial Assessment
+
+Determine whether an event qualifies as a security incident.
+
+Triage
+
+Evaluate the severity, urgency, and potential impact.
+
+Incident Validation
+
+Confirm the incident through investigation.
+
+Data Collection and Analysis
+
+Analyze logs, alerts, and network traffic.
+
+Communication and Reporting
+
+Notify stakeholders and document findings.
+
+3. Containment, Eradication, and Recovery
+
+This phase focuses on limiting damage, removing the threat, and restoring normal operations.
+
+Containment
+
+Prevent the incident from spreading further.
+
+Methods include:
+
+System isolation
+
+Quarantine of infected systems
+
+Access control restrictions
+
+Blocking malicious network traffic
+
+Internal communication with teams
+
+Eradication
+
+Remove the root cause of the incident.
+
+Activities include:
+
+Investigation
+
+Analyze system logs and network traffic.
+
+Patching and Remediation
+
+Fix vulnerabilities and update software.
+
+Malware Removal
+
+Password Reset
+
+Secure compromised user accounts.
+
+Recovery
+
+Restore systems to normal operation.
+
+Activities include:
+
+System restoration
+
+Verification and testing
+
+Change management
+
+Monitoring systems to ensure the threat is fully removed.
+
+4. Post-Incident Activity
+
+This phase focuses on learning from the incident and improving future response.
+
+Activities
+
+Incident Documentation
+
+Evidence Preservation
+
+Post-Incident Review
+
+Incident Reporting
+
+Communication and Notifications
+
+Continuous Improvement
+
+Training and Awareness
+
+Information Sharing
